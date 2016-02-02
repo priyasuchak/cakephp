@@ -123,7 +123,7 @@ class ExaminationTTable extends Table
     'fields' => array('UserJoin.*', 'Message.*'),
     'order' => 'Message.datetime DESC'
 ));
-		 */
+	dd	 */
 		
 		$regInfo=$registrationTbl->find('all',[				
 				'join'=>[
