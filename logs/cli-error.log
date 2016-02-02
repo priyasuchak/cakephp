@@ -1,0 +1,228 @@
+2016-01-26 09:46:58 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ceplive.a_d_m_i_n_i_s_t_r_a_t_o_r_t' doesn't exist
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'a_d_m_i_n_i_s_t...', Array, Object(Cake\Database\Schema\Table))
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(65): Cake\Database\Schema\Collection->describe('a_d_m_i_n_i_s_t...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/FixtureTask.php(184): Cake\Database\Schema\CachedCollection->describe('a_d_m_i_n_i_s_t...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(907): Bake\Shell\Task\FixtureTask->bake('ADMINISTRATORT', 'a_d_m_i_n_i_s_t...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(133): Bake\Shell\Task\ModelTask->bakeFixture('ADMINISTRATORT', 'a_d_m_i_n_i_s_t...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ADMINISTRATORT')
+#6 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(150): Bake\Shell\Task\ModelTask->main('ADMINISTRATOR_T')
+#7 [internal function]: Bake\Shell\Task\ModelTask->all()
+#8 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(380): call_user_func_array(Array, Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(386): Cake\Console\Shell->runCommand(Array, false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#12 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#13 /Applications/XAMPP/xamppfiles/htdocs/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-01-26 09:47:53 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ceplive.a_d_m_i_n_i_s_t_r_a_t_o_r_t' doesn't exist
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'a_d_m_i_n_i_s_t...', Array, Object(Cake\Database\Schema\Table))
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(65): Cake\Database\Schema\Collection->describe('a_d_m_i_n_i_s_t...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/FixtureTask.php(184): Cake\Database\Schema\CachedCollection->describe('a_d_m_i_n_i_s_t...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(907): Bake\Shell\Task\FixtureTask->bake('ADMINISTRATORT', 'a_d_m_i_n_i_s_t...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(133): Bake\Shell\Task\ModelTask->bakeFixture('ADMINISTRATORT', 'a_d_m_i_n_i_s_t...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ADMINISTRATORT')
+#6 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(150): Bake\Shell\Task\ModelTask->main('ADMINISTRATOR_T')
+#7 [internal function]: Bake\Shell\Task\ModelTask->all()
+#8 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(380): call_user_func_array(Array, Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(386): Cake\Console\Shell->runCommand(Array, false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#12 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#13 /Applications/XAMPP/xamppfiles/htdocs/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-01-26 09:48:43 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ceplive.c_e_a_c_t_i_v_i_t_y_l_i_s_t_t' doesn't exist
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'c_e_a_c_t_i_v_i...', Array, Object(Cake\Database\Schema\Table))
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(65): Cake\Database\Schema\Collection->describe('c_e_a_c_t_i_v_i...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php(426): Cake\Database\Schema\CachedCollection->describe('c_e_a_c_t_i_v_i...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php(502): Cake\ORM\Table->schema()
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#5 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('CEACTIVITYLISTT')
+#7 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/BakeShell.php(241): Bake\Shell\Task\ModelTask->main('CEACTIVITYLISTT')
+#8 [internal function]: Bake\Shell\BakeShell->all('CE_ACTIVITY_LIS...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(380): call_user_func_array(Array, Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#12 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#13 /Applications/XAMPP/xamppfiles/htdocs/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-01-26 09:50:50 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ceplive.a_d_m_i_n_i_s_t_r_a_t_o_r_t' doesn't exist
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'a_d_m_i_n_i_s_t...', Array, Object(Cake\Database\Schema\Table))
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(65): Cake\Database\Schema\Collection->describe('a_d_m_i_n_i_s_t...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/FixtureTask.php(184): Cake\Database\Schema\CachedCollection->describe('a_d_m_i_n_i_s_t...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(907): Bake\Shell\Task\FixtureTask->bake('ADMINISTRATORT', 'a_d_m_i_n_i_s_t...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(133): Bake\Shell\Task\ModelTask->bakeFixture('ADMINISTRATORT', 'a_d_m_i_n_i_s_t...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ADMINISTRATORT')
+#6 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(150): Bake\Shell\Task\ModelTask->main('ADMINISTRATOR_T')
+#7 [internal function]: Bake\Shell\Task\ModelTask->all()
+#8 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(380): call_user_func_array(Array, Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(386): Cake\Console\Shell->runCommand(Array, false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#12 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#13 /Applications/XAMPP/xamppfiles/htdocs/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-01-26 09:53:03 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ceplive.c_e_a_c_t_i_v_i_t_y_l_i_s_t_t' doesn't exist
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'c_e_a_c_t_i_v_i...', Array, Object(Cake\Database\Schema\Table))
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(65): Cake\Database\Schema\Collection->describe('c_e_a_c_t_i_v_i...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php(426): Cake\Database\Schema\CachedCollection->describe('c_e_a_c_t_i_v_i...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php(502): Cake\ORM\Table->schema()
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#5 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('CEACTIVITYLISTT')
+#7 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/BakeShell.php(241): Bake\Shell\Task\ModelTask->main('CEACTIVITYLISTT')
+#8 [internal function]: Bake\Shell\BakeShell->all('CE_ACTIVITY_LIS...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(380): call_user_func_array(Array, Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#12 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#13 /Applications/XAMPP/xamppfiles/htdocs/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-01-26 10:24:54 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ceplive.a_d_m_i_n_i_s_t_r_a_t_o_r_t' doesn't exist
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'a_d_m_i_n_i_s_t...', Array, Object(Cake\Database\Schema\Table))
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(65): Cake\Database\Schema\Collection->describe('a_d_m_i_n_i_s_t...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/FixtureTask.php(184): Cake\Database\Schema\CachedCollection->describe('a_d_m_i_n_i_s_t...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(907): Bake\Shell\Task\FixtureTask->bake('ADMINISTRATORT', 'a_d_m_i_n_i_s_t...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(133): Bake\Shell\Task\ModelTask->bakeFixture('ADMINISTRATORT', 'a_d_m_i_n_i_s_t...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ADMINISTRATORT')
+#6 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(150): Bake\Shell\Task\ModelTask->main('ADMINISTRATOR_T')
+#7 [internal function]: Bake\Shell\Task\ModelTask->all()
+#8 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(380): call_user_func_array(Array, Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(386): Cake\Console\Shell->runCommand(Array, false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#12 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#13 /Applications/XAMPP/xamppfiles/htdocs/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-01-26 10:27:42 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ceplive.c_e_a_c_t_i_v_i_t_y_l_i_s_t_t' doesn't exist
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'c_e_a_c_t_i_v_i...', Array, Object(Cake\Database\Schema\Table))
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(65): Cake\Database\Schema\Collection->describe('c_e_a_c_t_i_v_i...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php(426): Cake\Database\Schema\CachedCollection->describe('c_e_a_c_t_i_v_i...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php(502): Cake\ORM\Table->schema()
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#5 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('CEACTIVITYLISTT')
+#7 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/BakeShell.php(241): Bake\Shell\Task\ModelTask->main('CEACTIVITYLISTT')
+#8 [internal function]: Bake\Shell\BakeShell->all('CE_ACTIVITY_LIS...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(380): call_user_func_array(Array, Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#12 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#13 /Applications/XAMPP/xamppfiles/htdocs/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-01-26 10:28:36 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ceplive.c_e_a_c_t_i_v_i_t_y_t' doesn't exist
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'c_e_a_c_t_i_v_i...', Array, Object(Cake\Database\Schema\Table))
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(65): Cake\Database\Schema\Collection->describe('c_e_a_c_t_i_v_i...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php(426): Cake\Database\Schema\CachedCollection->describe('c_e_a_c_t_i_v_i...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php(502): Cake\ORM\Table->schema()
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#5 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('CEACTIVITYT')
+#7 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/BakeShell.php(241): Bake\Shell\Task\ModelTask->main('CEACTIVITYT')
+#8 [internal function]: Bake\Shell\BakeShell->all('CE_ACTIVITY_T')
+#9 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(380): call_user_func_array(Array, Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#12 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#13 /Applications/XAMPP/xamppfiles/htdocs/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-01-26 10:43:46 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ceplive.a_d_m_i_n_i_s_t_r_a_t_o_r_t' doesn't exist
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'a_d_m_i_n_i_s_t...', Array, Object(Cake\Database\Schema\Table))
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(65): Cake\Database\Schema\Collection->describe('a_d_m_i_n_i_s_t...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/FixtureTask.php(184): Cake\Database\Schema\CachedCollection->describe('a_d_m_i_n_i_s_t...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(907): Bake\Shell\Task\FixtureTask->bake('ADMINISTRATORT', 'a_d_m_i_n_i_s_t...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(133): Bake\Shell\Task\ModelTask->bakeFixture('ADMINISTRATORT', 'a_d_m_i_n_i_s_t...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ADMINISTRATORT')
+#6 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(150): Bake\Shell\Task\ModelTask->main('ADMINISTRATOR_T')
+#7 [internal function]: Bake\Shell\Task\ModelTask->all()
+#8 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(380): call_user_func_array(Array, Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(386): Cake\Console\Shell->runCommand(Array, false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#12 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#13 /Applications/XAMPP/xamppfiles/htdocs/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-01-28 04:25:56 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ceplive.c_e_a_c_t_i_v_i_t_y_l_i_s_t_t' doesn't exist
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'c_e_a_c_t_i_v_i...', Array, Object(Cake\Database\Schema\Table))
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(65): Cake\Database\Schema\Collection->describe('c_e_a_c_t_i_v_i...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php(426): Cake\Database\Schema\CachedCollection->describe('c_e_a_c_t_i_v_i...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php(502): Cake\ORM\Table->schema()
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#5 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('CEACTIVITYLISTT')
+#7 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/BakeShell.php(241): Bake\Shell\Task\ModelTask->main('CEACTIVITYLISTT')
+#8 [internal function]: Bake\Shell\BakeShell->all('CE_ACTIVITY_LIS...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(380): call_user_func_array(Array, Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#12 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#13 /Applications/XAMPP/xamppfiles/htdocs/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-01-28 04:27:34 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ceplive.contatct_correspondence_t' doesn't exist
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'contatct_corres...', Array, Object(Cake\Database\Schema\Table))
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(65): Cake\Database\Schema\Collection->describe('contatct_corres...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php(426): Cake\Database\Schema\CachedCollection->describe('contatct_corres...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php(502): Cake\ORM\Table->schema()
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#5 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ContatctCorresp...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ContatctCorresp...')
+#8 [internal function]: Bake\Shell\BakeShell->all('contatct_corres...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(380): call_user_func_array(Array, Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#12 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#13 /Applications/XAMPP/xamppfiles/htdocs/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-01-28 04:32:25 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ceplive.upload_clean' doesn't exist
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'upload_clean', Array, Object(Cake\Database\Schema\Table))
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(65): Cake\Database\Schema\Collection->describe('upload_clean', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php(426): Cake\Database\Schema\CachedCollection->describe('upload_clean')
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php(502): Cake\ORM\Table->schema()
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#5 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('UploadClean')
+#7 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/bake/src/Shell/BakeShell.php(241): Bake\Shell\Task\ModelTask->main('UploadClean')
+#8 [internal function]: Bake\Shell\BakeShell->all('uploadClean')
+#9 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(380): call_user_func_array(Array, Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#12 /Applications/XAMPP/xamppfiles/htdocs/cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#13 /Applications/XAMPP/xamppfiles/htdocs/cakephp/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
